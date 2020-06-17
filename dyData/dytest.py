@@ -24,7 +24,6 @@ for i in range(len(hot)):
     video = element.findElementByName('视频')
     # event.touch(video[0],video[1])
     event.touch(355,264)
-    # time.sleep(random.randint(1,9))
     time.sleep(round(random.uniform(0,9),2))
     event.touch(82,134)
 
