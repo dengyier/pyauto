@@ -72,6 +72,23 @@ class Event(object):
     def touch(self,dx,dy):
         os.popen(cmdTap+" "+str(dx)+" "+str(dy))
         time.sleep(1)
+    def swipUp(self):
+        os.popen(cmdswipeUp)
+
+    def swipDown(self):
+        os.popen(cmdswipeDown)
+
+    def swipLeft(self):
+        os.popen(cmdswipLeft)
+
+    def swipRight(self):
+        os.popen(cmdswipeRight)
+
+    def back(self):
+        os.popen(cmdBack)
+
+
+
 
 
 def test():
