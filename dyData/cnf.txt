@@ -1,0 +1,9 @@
+[Command]
+cmd_device = adb devices
+cmd_install = adb install /Users/yaoyao/Downloads/dy5.apk
+cmd_log = adb logcat > 1.txt
+cmd_conn = adb connect 127.0.0.1:5555
+cmd_ui = adb shell uiautomator dump /sdcard/ui.xml
+cmd_pull = adb pull /sdcard/ui.xml
+cmd_wait = adb wait-for-device
+cmd_tap = adb shell input tap
