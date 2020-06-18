@@ -21,8 +21,9 @@ if __name__ == "__main__":
 
     search_cord = home.findElementById('com.ss.android.ugc.aweme:id/amj')
     morehot_cord = morehot.findElementById('com.ss.android.ugc.aweme:id/b88')
-
-    print(search_cord, morehot_cord)
+    video_tab_cord = word_detail.findElementByName('视频')
+    video_word_detail_back_cord = word_detail.findElementById('com.ss.android.ugc.aweme:id/adb')
+    print(search_cord, morehot_cord, video_tab_cord, video_word_detail_back_cord)
     #查看热搜榜
     hot = word_list.findElementsById('com.ss.android.ugc.aweme:id/b8f')
     print(len(hot),hot)
@@ -33,9 +34,8 @@ if __name__ == "__main__":
         time.sleep(random.randint(1,9))
         #视频
         video = word_detail.findElementByName('视频')
-        # event.touch(video[0],video[1])
-        event.touch(355,264)
+        event.touch(video_tab_cord[0],video_tab_cord[1])
         time.sleep(round(random.uniform(0,9),2))
-        event.touch(82,134)
-        time.sleep(random.randint(2,7))
+        event.touch(video_word_detail_back_cord[0],video_word_detail_back_cord[1])
+        time.sleep(round(random.uniform(0,9),2))
 
