@@ -7,6 +7,7 @@ if __name__ == "__main__":
     home = Element('dy_a70_home.xml')
     morehot = Element('dy_a70_morehot.xml')
     word_list = Element('dy_a70_word_list.xml')
+    word_detail = Element('dy_a70_word_detail.xml')
     event = Event()
 
     # #找到搜索
@@ -19,9 +20,9 @@ if __name__ == "__main__":
 
 
     search_cord = home.findElementById('com.ss.android.ugc.aweme:id/amj')
-    morehot_cord = morehot.findElementsById('com.ss.android.ugc.aweme:id/b88')
+    morehot_cord = morehot.findElementById('com.ss.android.ugc.aweme:id/b88')
 
-    print(search_cord, morehot)
+    print(search_cord, morehot_cord)
     #查看热搜榜
     hot = word_list.findElementsById('com.ss.android.ugc.aweme:id/b8f')
     print(len(hot),hot)
@@ -31,7 +32,7 @@ if __name__ == "__main__":
         event.touch(x,y)
         time.sleep(random.randint(1,9))
         #视频
-        video = element.findElementByName('视频')
+        video = word_detail.findElementByName('视频')
         # event.touch(video[0],video[1])
         event.touch(355,264)
         time.sleep(round(random.uniform(0,9),2))
