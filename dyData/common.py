@@ -6,14 +6,14 @@ from readConf import *
 
 
 class Element(object):
-    def __init__(self):
+    def __init__(self, ui_xml_file):
         """
         初始化，获取文件存放目录
         """
         # self.Path = os.path.join(os.getcwd(),'dyData')
 
         self.Path = '.%s' %  os.path.sep
-        self.file_name = 'dy_a70_word_list.xml'
+        self.file_name = ui_xml_file
         self.pattern = re.compile(r"\d+")
     def __uidump(self):
         """获取当前Activity控件树"""
