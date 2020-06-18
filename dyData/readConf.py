@@ -8,7 +8,7 @@ import configparser
 #实例化ConfigParser方法
 conf = configparser.ConfigParser()
 # conf.read(config_path)
-conf.read('/Users/yaoyao/Learn/dyData/cnf.ini')
+conf.read('.%scnf.ini' % os.path.sep)
 #读取config.ini的字段信息
 
 cmdDevice = conf.get("command", "deviceCMD")

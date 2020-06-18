@@ -1,4 +1,4 @@
-from dyData.common import *
+from common import *
 from readConf import *
 import random
 
@@ -16,7 +16,8 @@ if __name__ == "__main__":
     # event.touch(lookup[0],lookup[1])
 
     #查看热搜榜
-    hot = element.findElementsByClass('android.widget.RelativeLayout')
+    hot = element.findElementsById('com.ss.android.ugc.aweme:id/b8f')
+    print(len(hot),hot)
     for i in range(len(hot)):
         x = hot[i][0]
         y = hot[i][1]
