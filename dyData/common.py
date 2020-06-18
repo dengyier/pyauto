@@ -11,7 +11,7 @@ class Element(object):
         初始化，获取文件存放目录
         """
         # self.Path = os.path.join(os.getcwd(),'dyData')
-        self.Path = '/Users/yaoyao/Learn/dyData/'
+        self.Path = '.%s' %  os.path.sep
         self.pattern = re.compile(r"\d+")
     def __uidump(self):
         """获取当前Activity控件树"""
@@ -20,7 +20,7 @@ class Element(object):
     def __element(self, attrib, name):
         '''同属性单个元素，返回单个元素坐标'''
         #self.__uidump()
-        tree = ET.ElementTree(file= self.Path+'/ui.xml')
+        tree = ET.ElementTree(file= self.Path+'ui.xml')
         treeIter = tree.iter(tag="node")
         for elem in treeIter:
             if elem.attrib[attrib] == name:
@@ -35,8 +35,7 @@ class Element(object):
         同属性多个元素，返回坐标元组列表
         """
         list = []
-        #self.__uidump()
-        tree = ET.ElementTree(file=self.Path + "/ui.xml")
+        tree = ET.ElementTree(file=self.Path + "ui.xml")
         treeIter = tree.iter(tag="node")
         for elem in treeIter:
             if elem.attrib[attrib] == name:
