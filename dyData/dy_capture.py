@@ -1,5 +1,6 @@
 # -*-coding:utf-8*-
 import requests
+import  driver
 from requests.adapters import HTTPAdapter
 import  time,json
 import  os, random
@@ -250,9 +251,12 @@ def write_content(text):
 
 
 if __name__ == "__main__":
+    print('start run')
+    driver.start_run_from_homepage()
     load_data()
     update_word_list()
     update_video_list()
+    print('start upload')
     upload_tpdns()
     save_data()
     write_content(json.dumps(last_words_dict))
