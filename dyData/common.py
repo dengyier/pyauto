@@ -12,7 +12,7 @@ class Element(object):
         """
         # self.Path = os.path.join(os.getcwd(),'dyData')
 
-        self.Path = '.%s/xml' %  os.path.sep
+        self.Path = '.%sxml%s' % (os.path.sep,os.path.sep)
         self.file_name = ui_xml_file
         self.pattern = re.compile(r"\d+")
     def __uidump(self):
