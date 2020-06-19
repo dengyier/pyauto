@@ -1,0 +1,361 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<hierarchy rotation="0">
+    <node index="0" text="" resource-id="" class="android.widget.FrameLayout" package="com.ss.android.ugc.aweme"
+          content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false"
+          focused="false" scrollable="false" long-clickable="false" password="false" selected="false"
+          bounds="[0,0][1080,1920]">
+        <node index="0" text="" resource-id="" class="android.widget.LinearLayout" package="com.ss.android.ugc.aweme"
+              content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false"
+              focused="false" scrollable="false" long-clickable="false" password="false" selected="false"
+              bounds="[0,0][1080,1920]">
+            <node index="0" text="" resource-id="android:id/content" class="android.widget.FrameLayout"
+                  package="com.ss.android.ugc.aweme" content-desc="" checkable="false" checked="false" clickable="false"
+                  enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false"
+                  password="false" selected="false" bounds="[0,0][1080,1920]">
+                <node index="0" text="" resource-id="com.ss.android.ugc.aweme:id/jy" class="android.widget.FrameLayout"
+                      package="com.ss.android.ugc.aweme" content-desc="" checkable="false" checked="false"
+                      clickable="false" enabled="true" focusable="false" focused="false" scrollable="false"
+                      long-clickable="false" password="false" selected="false" bounds="[0,0][1080,1920]">
+                    <node index="0" text="" resource-id="" class="android.widget.RelativeLayout"
+                          package="com.ss.android.ugc.aweme" content-desc="" checkable="false" checked="false"
+                          clickable="false" enabled="true" focusable="false" focused="false" scrollable="false"
+                          long-clickable="false" password="false" selected="false" bounds="[0,0][1080,1920]">
+                        <node index="0" text="" resource-id="com.ss.android.ugc.aweme:id/akx" class="android.view.View"
+                              package="com.ss.android.ugc.aweme" content-desc="" checkable="false" checked="false"
+                              clickable="false" enabled="true" focusable="false" focused="false" scrollable="false"
+                              long-clickable="false" password="false" selected="false" bounds="[0,0][1080,72]"/>
+                        <node index="1" text="" resource-id="com.ss.android.ugc.aweme:id/it"
+                              class="android.widget.RelativeLayout" package="com.ss.android.ugc.aweme" content-desc=""
+                              checkable="false" checked="false" clickable="false" enabled="true" focusable="false"
+                              focused="false" scrollable="false" long-clickable="false" password="false"
+                              selected="false" bounds="[0,72][1080,204]">
+                            <node NAF="true" index="0" text="" resource-id="com.ss.android.ugc.aweme:id/adb"
+                                  class="android.widget.ImageView" package="com.ss.android.ugc.aweme" content-desc=""
+                                  checkable="false" checked="false" clickable="true" enabled="true" focusable="false"
+                                  focused="false" scrollable="false" long-clickable="false" password="false"
+                                  selected="false" bounds="[0,72][132,204]"/>
+                            <node index="1" text="" resource-id="com.ss.android.ugc.aweme:id/ad8"
+                                  class="android.widget.FrameLayout" package="com.ss.android.ugc.aweme" content-desc=""
+                                  checkable="false" checked="false" clickable="false" enabled="true" focusable="false"
+                                  focused="false" scrollable="false" long-clickable="false" password="false"
+                                  selected="false" bounds="[132,84][882,192]">
+                                <node index="0" text="姐姐舞挑战" resource-id="com.ss.android.ugc.aweme:id/ad_"
+                                      class="android.widget.EditText" package="com.ss.android.ugc.aweme" content-desc=""
+                                      checkable="false" checked="false" clickable="true" enabled="true" focusable="true"
+                                      focused="true" scrollable="false" long-clickable="true" password="false"
+                                      selected="false" bounds="[132,84][882,192]"/>
+                                <node index="1" text="" resource-id="com.ss.android.ugc.aweme:id/ad9"
+                                      class="android.widget.ImageView" package="com.ss.android.ugc.aweme"
+                                      content-desc="" checkable="false" checked="false" clickable="false" enabled="true"
+                                      focusable="false" focused="false" scrollable="false" long-clickable="false"
+                                      password="false" selected="false" bounds="[144,102][216,174]"/>
+                                <node NAF="true" index="2" text="" resource-id="com.ss.android.ugc.aweme:id/a_l"
+                                      class="android.widget.ImageButton" package="com.ss.android.ugc.aweme"
+                                      content-desc="" checkable="false" checked="false" clickable="true" enabled="true"
+                                      focusable="true" focused="false" scrollable="false" long-clickable="false"
+                                      password="false" selected="false" bounds="[798,102][870,174]"/>
+                            </node>
+                            <node index="2" text="搜索" resource-id="com.ss.android.ugc.aweme:id/adc"
+                                  class="android.widget.TextView" package="com.ss.android.ugc.aweme" content-desc=""
+                                  checkable="false" checked="false" clickable="false" enabled="true" focusable="false"
+                                  focused="false" scrollable="false" long-clickable="false" password="false"
+                                  selected="false" bounds="[882,72][1080,204]"/>
+                        </node>
+                        <node index="2" text="" resource-id="com.ss.android.ugc.aweme:id/jy"
+                              class="android.widget.FrameLayout" package="com.ss.android.ugc.aweme" content-desc=""
+                              checkable="false" checked="false" clickable="false" enabled="true" focusable="false"
+                              focused="false" scrollable="false" long-clickable="false" password="false"
+                              selected="false" bounds="[0,204][1080,1920]">
+                            <node index="0" text="" resource-id="com.ss.android.ugc.aweme:id/arx"
+                                  class="android.widget.RelativeLayout" package="com.ss.android.ugc.aweme"
+                                  content-desc="" checkable="false" checked="false" clickable="false" enabled="true"
+                                  focusable="false" focused="false" scrollable="false" long-clickable="false"
+                                  password="false" selected="false" bounds="[0,204][1080,1920]">
+                                <node index="0" text="" resource-id="com.ss.android.ugc.aweme:id/age"
+                                      class="android.widget.HorizontalScrollView" package="com.ss.android.ugc.aweme"
+                                      content-desc="" checkable="false" checked="false" clickable="false" enabled="true"
+                                      focusable="true" focused="false" scrollable="true" long-clickable="false"
+                                      password="false" selected="false" bounds="[0,204][1080,324]">
+                                    <node index="0" text="" resource-id="" class="android.widget.LinearLayout"
+                                          package="com.ss.android.ugc.aweme" content-desc="" checkable="false"
+                                          checked="false" clickable="false" enabled="true" focusable="false"
+                                          focused="false" scrollable="false" long-clickable="false" password="false"
+                                          selected="false" bounds="[0,204][1080,324]">
+                                        <node index="0" text="" resource-id=""
+                                              class="android.support.v7.app.ActionBar$Tab"
+                                              package="com.ss.android.ugc.aweme" content-desc="" checkable="false"
+                                              checked="false" clickable="true" enabled="true" focusable="true"
+                                              focused="false" scrollable="false" long-clickable="false" password="false"
+                                              selected="true" bounds="[48,204][192,324]">
+                                            <node index="0" text="" resource-id="" class="android.widget.LinearLayout"
+                                                  package="com.ss.android.ugc.aweme" content-desc="" checkable="false"
+                                                  checked="false" clickable="false" enabled="true" focusable="false"
+                                                  focused="false" scrollable="false" long-clickable="false"
+                                                  password="false" selected="true" bounds="[75,233][165,294]">
+                                                <node index="0" text="综合" resource-id="android:id/text1"
+                                                      class="android.widget.TextView" package="com.ss.android.ugc.aweme"
+                                                      content-desc="" checkable="false" checked="false"
+                                                      clickable="false" enabled="true" focusable="false" focused="false"
+                                                      scrollable="false" long-clickable="false" password="false"
+                                                      selected="true" bounds="[75,233][165,294]"/>
+                                            </node>
+                                        </node>
+                                        <node index="1" text="" resource-id=""
+                                              class="android.support.v7.app.ActionBar$Tab"
+                                              package="com.ss.android.ugc.aweme" content-desc="" checkable="false"
+                                              checked="false" clickable="true" enabled="true" focusable="true"
+                                              focused="false" scrollable="false" long-clickable="false" password="false"
+                                              selected="false" bounds="[288,204][432,324]">
+                                            <node index="0" text="" resource-id="" class="android.widget.LinearLayout"
+                                                  package="com.ss.android.ugc.aweme" content-desc="" checkable="false"
+                                                  checked="false" clickable="false" enabled="true" focusable="false"
+                                                  focused="false" scrollable="false" long-clickable="false"
+                                                  password="false" selected="false" bounds="[315,233][405,294]">
+                                                <node index="0" text="视频" resource-id="android:id/text1"
+                                                      class="android.widget.TextView" package="com.ss.android.ugc.aweme"
+                                                      content-desc="" checkable="false" checked="false"
+                                                      clickable="false" enabled="true" focusable="false" focused="false"
+                                                      scrollable="false" long-clickable="false" password="false"
+                                                      selected="false" bounds="[315,233][405,294]"/>
+                                            </node>
+                                        </node>
+                                        <node index="2" text="" resource-id=""
+                                              class="android.support.v7.app.ActionBar$Tab"
+                                              package="com.ss.android.ugc.aweme" content-desc="" checkable="false"
+                                              checked="false" clickable="true" enabled="true" focusable="true"
+                                              focused="false" scrollable="false" long-clickable="false" password="false"
+                                              selected="false" bounds="[528,204][672,324]">
+                                            <node index="0" text="" resource-id="" class="android.widget.LinearLayout"
+                                                  package="com.ss.android.ugc.aweme" content-desc="" checkable="false"
+                                                  checked="false" clickable="false" enabled="true" focusable="false"
+                                                  focused="false" scrollable="false" long-clickable="false"
+                                                  password="false" selected="false" bounds="[555,233][645,294]">
+                                                <node index="0" text="用户" resource-id="android:id/text1"
+                                                      class="android.widget.TextView" package="com.ss.android.ugc.aweme"
+                                                      content-desc="" checkable="false" checked="false"
+                                                      clickable="false" enabled="true" focusable="false" focused="false"
+                                                      scrollable="false" long-clickable="false" password="false"
+                                                      selected="false" bounds="[555,233][645,294]"/>
+                                            </node>
+                                        </node>
+                                        <node index="3" text="" resource-id=""
+                                              class="android.support.v7.app.ActionBar$Tab"
+                                              package="com.ss.android.ugc.aweme" content-desc="" checkable="false"
+                                              checked="false" clickable="true" enabled="true" focusable="true"
+                                              focused="false" scrollable="false" long-clickable="false" password="false"
+                                              selected="false" bounds="[768,204][912,324]">
+                                            <node index="0" text="" resource-id="" class="android.widget.LinearLayout"
+                                                  package="com.ss.android.ugc.aweme" content-desc="" checkable="false"
+                                                  checked="false" clickable="false" enabled="true" focusable="false"
+                                                  focused="false" scrollable="false" long-clickable="false"
+                                                  password="false" selected="false" bounds="[795,233][885,294]">
+                                                <node index="0" text="音乐" resource-id="android:id/text1"
+                                                      class="android.widget.TextView" package="com.ss.android.ugc.aweme"
+                                                      content-desc="" checkable="false" checked="false"
+                                                      clickable="false" enabled="true" focusable="false" focused="false"
+                                                      scrollable="false" long-clickable="false" password="false"
+                                                      selected="false" bounds="[795,233][885,294]"/>
+                                            </node>
+                                        </node>
+                                        <node index="4" text="" resource-id=""
+                                              class="android.support.v7.app.ActionBar$Tab"
+                                              package="com.ss.android.ugc.aweme" content-desc="" checkable="false"
+                                              checked="false" clickable="true" enabled="true" focusable="true"
+                                              focused="false" scrollable="false" long-clickable="false" password="false"
+                                              selected="false" bounds="[1008,204][1080,324]">
+                                            <node index="0" text="" resource-id="" class="android.widget.LinearLayout"
+                                                  package="com.ss.android.ugc.aweme" content-desc="" checkable="false"
+                                                  checked="false" clickable="false" enabled="true" focusable="false"
+                                                  focused="false" scrollable="false" long-clickable="false"
+                                                  password="false" selected="false" bounds="[1035,233][1080,294]">
+                                                <node index="0" text="话题" resource-id="android:id/text1"
+                                                      class="android.widget.TextView" package="com.ss.android.ugc.aweme"
+                                                      content-desc="" checkable="false" checked="false"
+                                                      clickable="false" enabled="true" focusable="false" focused="false"
+                                                      scrollable="false" long-clickable="false" password="false"
+                                                      selected="false" bounds="[1035,233][1080,294]"/>
+                                            </node>
+                                        </node>
+                                    </node>
+                                </node>
+                                <node index="1" text="" resource-id="com.ss.android.ugc.aweme:id/ary"
+                                      class="android.view.View" package="com.ss.android.ugc.aweme" content-desc=""
+                                      checkable="false" checked="false" clickable="false" enabled="true"
+                                      focusable="false" focused="false" scrollable="false" long-clickable="false"
+                                      password="false" selected="false" bounds="[0,324][1080,325]"/>
+                                <node index="2" text="" resource-id="com.ss.android.ugc.aweme:id/arz"
+                                      class="android.support.v4.view.ViewPager" package="com.ss.android.ugc.aweme"
+                                      content-desc="" checkable="false" checked="false" clickable="false" enabled="true"
+                                      focusable="true" focused="false" scrollable="true" long-clickable="false"
+                                      password="false" selected="false" bounds="[0,325][1080,1920]">
+                                    <node index="0" text="" resource-id="" class="android.widget.FrameLayout"
+                                          package="com.ss.android.ugc.aweme" content-desc="" checkable="false"
+                                          checked="false" clickable="false" enabled="true" focusable="false"
+                                          focused="false" scrollable="false" long-clickable="false" password="false"
+                                          selected="false" bounds="[0,325][1080,1920]">
+                                        <node index="0" text="" resource-id="com.ss.android.ugc.aweme:id/k8"
+                                              class="android.widget.FrameLayout" package="com.ss.android.ugc.aweme"
+                                              content-desc="" checkable="false" checked="false" clickable="false"
+                                              enabled="true" focusable="false" focused="false" scrollable="false"
+                                              long-clickable="false" password="false" selected="false"
+                                              bounds="[0,325][1080,1920]"/>
+                                        <node index="1" text="" resource-id="com.ss.android.ugc.aweme:id/arw"
+                                              class="android.widget.FrameLayout" package="com.ss.android.ugc.aweme"
+                                              content-desc="" checkable="false" checked="false" clickable="false"
+                                              enabled="true" focusable="false" focused="false" scrollable="false"
+                                              long-clickable="false" password="false" selected="false"
+                                              bounds="[0,325][1080,1920]">
+                                            <node index="0" text="" resource-id="com.ss.android.ugc.aweme:id/mh"
+                                                  class="android.view.ViewGroup" package="com.ss.android.ugc.aweme"
+                                                  content-desc="" checkable="false" checked="false" clickable="false"
+                                                  enabled="true" focusable="false" focused="false" scrollable="false"
+                                                  long-clickable="false" password="false" selected="false"
+                                                  bounds="[0,325][1080,1920]">
+                                                <node index="0" text="" resource-id="com.ss.android.ugc.aweme:id/mi"
+                                                      class="android.support.v7.widget.RecyclerView"
+                                                      package="com.ss.android.ugc.aweme" content-desc=""
+                                                      checkable="false" checked="false" clickable="false" enabled="true"
+                                                      focusable="true" focused="false" scrollable="true"
+                                                      long-clickable="false" password="false" selected="false"
+                                                      bounds="[0,325][1080,1920]">
+                                                    <node index="0" text="" resource-id=""
+                                                          class="android.widget.LinearLayout"
+                                                          package="com.ss.android.ugc.aweme" content-desc=""
+                                                          checkable="false" checked="false" clickable="false"
+                                                          enabled="true" focusable="false" focused="false"
+                                                          scrollable="false" long-clickable="false" password="false"
+                                                          selected="false" bounds="[0,325][1080,1920]">
+                                                        <node index="0" text=""
+                                                              resource-id="com.ss.android.ugc.aweme:id/bpp"
+                                                              class="android.widget.LinearLayout"
+                                                              package="com.ss.android.ugc.aweme" content-desc=""
+                                                              checkable="false" checked="false" clickable="false"
+                                                              enabled="true" focusable="false" focused="false"
+                                                              scrollable="false" long-clickable="false" password="false"
+                                                              selected="false" bounds="[48,385][1032,517]">
+                                                            <node index="0" text=""
+                                                                  resource-id="com.ss.android.ugc.aweme:id/ajb"
+                                                                  class="android.widget.FrameLayout"
+                                                                  package="com.ss.android.ugc.aweme" content-desc=""
+                                                                  checkable="false" checked="false" clickable="false"
+                                                                  enabled="true" focusable="false" focused="false"
+                                                                  scrollable="false" long-clickable="false"
+                                                                  password="false" selected="false"
+                                                                  bounds="[48,385][180,517]">
+                                                                <node index="0" text="" resource-id=""
+                                                                      class="android.widget.FrameLayout"
+                                                                      package="com.ss.android.ugc.aweme" content-desc=""
+                                                                      checkable="false" checked="false"
+                                                                      clickable="false" enabled="true" focusable="false"
+                                                                      focused="false" scrollable="false"
+                                                                      long-clickable="false" password="false"
+                                                                      selected="false" bounds="[48,385][180,517]">
+                                                                    <node NAF="true" index="0" text=""
+                                                                          resource-id="com.ss.android.ugc.aweme:id/b4i"
+                                                                          class="android.widget.ImageView"
+                                                                          package="com.ss.android.ugc.aweme"
+                                                                          content-desc="" checkable="false"
+                                                                          checked="false" clickable="true"
+                                                                          enabled="true" focusable="false"
+                                                                          focused="false" scrollable="false"
+                                                                          long-clickable="false" password="false"
+                                                                          selected="false" bounds="[60,397][168,505]"/>
+                                                                </node>
+                                                            </node>
+                                                            <node index="1" text="" resource-id=""
+                                                                  class="android.widget.LinearLayout"
+                                                                  package="com.ss.android.ugc.aweme" content-desc=""
+                                                                  checkable="false" checked="false" clickable="false"
+                                                                  enabled="true" focusable="false" focused="false"
+                                                                  scrollable="false" long-clickable="false"
+                                                                  password="false" selected="false"
+                                                                  bounds="[204,422][330,479]">
+                                                                <node index="0" text="沈梦辰"
+                                                                      resource-id="com.ss.android.ugc.aweme:id/afu"
+                                                                      class="android.widget.TextView"
+                                                                      package="com.ss.android.ugc.aweme" content-desc=""
+                                                                      checkable="false" checked="false" clickable="true"
+                                                                      enabled="true" focusable="false" focused="false"
+                                                                      scrollable="false" long-clickable="false"
+                                                                      password="false" selected="false"
+                                                                      bounds="[204,422][330,479]"/>
+                                                            </node>
+                                                        </node>
+                                                        <node index="1" text=""
+                                                              resource-id="com.ss.android.ugc.aweme:id/b6f"
+                                                              class="android.widget.LinearLayout"
+                                                              package="com.ss.android.ugc.aweme" content-desc=""
+                                                              checkable="false" checked="false" clickable="false"
+                                                              enabled="true" focusable="false" focused="false"
+                                                              scrollable="false" long-clickable="false" password="false"
+                                                              selected="false" bounds="[48,517][1032,1920]">
+                                                            <node index="0" text="无价之姐来乘风破浪啦～#姐姐舞挑战 #乘风破浪的姐姐主题曲"
+                                                                  resource-id="com.ss.android.ugc.aweme:id/bh2"
+                                                                  class="android.widget.TextView"
+                                                                  package="com.ss.android.ugc.aweme" content-desc=""
+                                                                  checkable="false" checked="false" clickable="true"
+                                                                  enabled="true" focusable="true" focused="false"
+                                                                  scrollable="false" long-clickable="true"
+                                                                  password="false" selected="false"
+                                                                  bounds="[48,553][1032,673]"/>
+                                                            <node index="1" text=""
+                                                                  resource-id="com.ss.android.ugc.aweme:id/bqg"
+                                                                  class="android.widget.FrameLayout"
+                                                                  package="com.ss.android.ugc.aweme" content-desc=""
+                                                                  checkable="false" checked="false" clickable="false"
+                                                                  enabled="true" focusable="false" focused="false"
+                                                                  scrollable="false" long-clickable="false"
+                                                                  password="false" selected="false"
+                                                                  bounds="[48,709][825,1920]">
+                                                                <node index="0" text=""
+                                                                      resource-id="com.ss.android.ugc.aweme:id/a1f"
+                                                                      class="android.view.View"
+                                                                      package="com.ss.android.ugc.aweme" content-desc=""
+                                                                      checkable="false" checked="false"
+                                                                      clickable="false" enabled="true" focusable="false"
+                                                                      focused="false" scrollable="false"
+                                                                      long-clickable="false" password="false"
+                                                                      selected="false" bounds="[48,709][825,1920]"/>
+                                                                <node NAF="true" index="1" text=""
+                                                                      resource-id="com.ss.android.ugc.aweme:id/b34"
+                                                                      class="android.view.View"
+                                                                      package="com.ss.android.ugc.aweme" content-desc=""
+                                                                      checkable="false" checked="false" clickable="true"
+                                                                      enabled="true" focusable="false" focused="false"
+                                                                      scrollable="false" long-clickable="false"
+                                                                      password="false" selected="false"
+                                                                      bounds="[48,709][825,1920]"/>
+                                                                <node index="2" text=""
+                                                                      resource-id="com.ss.android.ugc.aweme:id/a0"
+                                                                      class="android.widget.FrameLayout"
+                                                                      package="com.ss.android.ugc.aweme" content-desc=""
+                                                                      checkable="false" checked="false"
+                                                                      clickable="false" enabled="true" focusable="false"
+                                                                      focused="false" scrollable="false"
+                                                                      long-clickable="false" password="false"
+                                                                      selected="false" bounds="[48,709][825,1920]"/>
+                                                            </node>
+                                                        </node>
+                                                    </node>
+                                                </node>
+                                            </node>
+                                        </node>
+                                    </node>
+                                </node>
+                            </node>
+                        </node>
+                    </node>
+                </node>
+                <node index="1" text="" resource-id="com.ss.android.ugc.aweme:id/il" class="android.widget.LinearLayout"
+                      package="com.ss.android.ugc.aweme" content-desc="" checkable="false" checked="false"
+                      clickable="false" enabled="true" focusable="false" focused="false" scrollable="false"
+                      long-clickable="false" password="false" selected="false" bounds="[0,0][1080,1920]">
+                    <node index="0" text="" resource-id="" class="android.widget.FrameLayout"
+                          package="com.ss.android.ugc.aweme" content-desc="" checkable="false" checked="false"
+                          clickable="false" enabled="true" focusable="false" focused="false" scrollable="false"
+                          long-clickable="false" password="false" selected="false" bounds="[0,0][1080,1920]"/>
+                </node>
+            </node>
+        </node>
+    </node>
+</hierarchy>
