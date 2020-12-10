@@ -1,7 +1,7 @@
 '''
-Create on:2020-01-20
+Create on:2020-12-10
 @author: 麒麟
-@email：haibod@jumei.com
+@email：dhb0113@163.com
     logging模块是Python内置的标准模块，主要用于输出运行日志，可以设置输出日志的等级、日志保存路径、日志文件回滚等，可以通过
 设置不同的日志等级，在release版本中只输出重要信息，而不必显示大量的调试信息。
 '''

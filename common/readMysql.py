@@ -1,7 +1,7 @@
 '''
 Create on:2020-01-18
 @author: 麒麟
-@email：haibod@jumei.com
+@email：dhb0113@163.com
     pymysql是python3中用于MySQL数据库连接的模板，readMysql.py主要用于封装MySQL数据库的连接、执行SQL方法、查询、关闭
 '''
 

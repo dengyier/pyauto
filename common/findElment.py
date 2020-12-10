@@ -1,7 +1,7 @@
 '''
-Create on:2020-06-19
+Create on:2020-12-10
 @author: 麒麟
-@email：haibod@jumei.com
+@email：dhb0113@163.com
     封装元素查找和控件手势操作操作
 '''
 
