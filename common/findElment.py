@@ -96,9 +96,6 @@ class Event(object):
         os.popen(cmdBack)
 
 
-
-
-
 def test():
     element = Element()
     event = Event()

@@ -4,7 +4,6 @@ Create on:2020-12-10
 @email：dhb0113@163.com
     configparser模板是python中用于读取配置文件，通常情况下程序文件中的配置不能写死，方便灵活配置。
     readConfig.py 用于读取cfg.ini 文件中的配置，后续程序调用中，直接调用readConfig.py获取字段信息
-
 '''
 
 import os
